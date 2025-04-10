@@ -1,6 +1,6 @@
 ## Overview
 
-This app is a file upload and parsing application that uses a React frontend and a C# API backend. The application allows users to upload CAN bus files, which are then parsed and processed by the API to locate specifically the service 36 tag. This could easily be modified in the future to accept multiple codes. This code is being uploaded as a project for Integrated Engineering and will be taken down within a month.
+This app is a file upload and parsing application that uses a React frontend, Typescript, and a C# API backend. The application allows users to upload CAN bus files, which are then parsed and processed by the API to locate specifically the service 36 tag. This could easily be modified in the future to accept multiple codes. This code is being uploaded as a project for Integrated Engineering and will be made private in the future.
 
 ## Features
 
@@ -11,19 +11,23 @@ This app is a file upload and parsing application that uses a React frontend and
 * Uses index.tsx to render the React application
 * Uses App.tsx to render the main application component
 
-## Installation
+## Initial Installation
 
-1. Start by cloning the repository from Github or if you're using the zip just continue ahead
+1. Start by downloading the zip of this repository
+2. Unzip the files to the location you'd like
+3. open up the command prompt
+4. Navigate to the unzipped folders location
 
 ### Start the API
 
-* Navigate to the `IE_DataExtraction\api\FileApi` directory in your terminal
+* Navigate to the `IE_DataExtraction-master\api\FileApi` directory in your terminal
 * You might need to run `dotnet restore` to install the C# API dependencies
-* Run the following command to start the API: `dotnet run` from the previously mentioned directory
+* Run the following command to start the API: `dotnet run`
 
 ### Start the React Application
 
-* Navigate to the `IE_DataExtraction` directory in your terminal
+* Open another command prompt window or tab
+* Navigate to the `IE_DataExtraction-master` directory in your terminal
 * Run the command `npm install` to install the React dependencies
 * Run the following command to start the React application: `npm start`
 
