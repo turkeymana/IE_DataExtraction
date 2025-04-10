@@ -13,40 +13,23 @@ This app is a file upload and parsing application that uses a React frontend and
 
 ## Installation
 
-To install my app, follow these steps:
-
-1. Clone the repository
-2. Run `npm install` to install the React dependencies
-3. Run `dotnet restore` to install the C# API dependencies
-4. Run `dotnet run` to start the API
-5. Run `npm start` to start the React application
-
-## Running the Project
-
-To run the project, follow these steps:
-
-### Install Dependencies
-
-* Install Node.js from the official website: <https://nodejs.org/en/download/>
-* Install .NET Core from the official website: <https://dotnet.microsoft.com/download>
-* Install npm by running the following command in your terminal: `npm install`
-* Install the required packages for the React frontend by running the following command in your terminal: `npm install react react-dom`
-* Install the required packages for the C# API backend by running the following command in your terminal: `dotnet restore`
+1. Start by cloning the repository from Github or if you're using the zip just continue ahead
 
 ### Start the API
 
-* Navigate to the `IE_DataExtraction-master\api\FileApi` directory in your terminal
-* Run the following command to start the API: `dotnet run`
+* Navigate to the `IE_DataExtraction\api\FileApi` directory in your terminal
+* You might need to run `dotnet restore` to install the C# API dependencies
+* Run the following command to start the API: `dotnet run` from the previously mentioned directory
 
 ### Start the React Application
 
-* Navigate to the `IE_DataExtraction-master` directory in your terminal
-* Run the command `npm install`
+* Navigate to the `IE_DataExtraction` directory in your terminal
+* Run the command `npm install` to install the React dependencies
 * Run the following command to start the React application: `npm start`
 
 ### Access the Application
 
-* Open a web browser and navigate to `http://localhost:3000` to access the React application. It should automatically open a window you start the React application
+* Open a web browser and navigate to `http://localhost:3000` to access the React application. It should automatically open a window when you start the React application
 * The API will be running on `http://localhost:3001`
 
 ## File Documentation
