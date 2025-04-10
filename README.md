@@ -35,26 +35,25 @@ To run the project, follow these steps:
 
 ### Start the API
 
-* Navigate to the `api` directory in your terminal
+* Navigate to the `IE_DataExtraction-master\api\FileApi` directory in your terminal
 * Run the following command to start the API: `dotnet run`
 
 ### Start the React Application
 
-* Navigate to the `src` directory in your terminal
+* Navigate to the `IE_DataExtraction-master` directory in your terminal
+* Run the command `npm install`
 * Run the following command to start the React application: `npm start`
 
 ### Access the Application
 
-* Open a web browser and navigate to `http://localhost:3000` to access the React application. It should automatically open when you start up the React application
+* Open a web browser and navigate to `http://localhost:3000` to access the React application. It should automatically open a window you start the React application
 * The API will be running on `http://localhost:3001`
 
-## API Documentation
+## File Documentation
 
-The API is documented in the FileController.cs file.
-
-## Frontend Documentation
-
-The frontend is documented in the FileUpload.tsx, index.tsx, and App.tsx files.
+The API is documented in the api\FileApi\ directory: FileController.cs, Program.cs files.
+The frontend is documented in the src directory: FileUpload.tsx, index.tsx, and App.tsx files.
+These were all the files I personally edited while creating this project, the rest are automatically generated.
 
 ## License
 
