@@ -1,46 +1,78 @@
-# Getting Started with Create React App
+# My App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a brief description of my app.
 
-## Available Scripts
+## Overview
 
-In the project directory, you can run:
+My app is a file upload and parsing application that uses a React frontend and a C# API backend. The application allows users to upload files, which are then parsed and processed by the API.
 
-### `npm start`
+## Features
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+* File upload and parsing using React and C# API
+* Uses FileController.cs to handle file uploads and parsing
+* Uses FileUpload.tsx to render the file upload component
+* Uses Program.cs to configure the API and handle requests
+* Uses index.tsx to render the React application
+* Uses App.tsx to render the main application component
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Installation
 
-### `npm test`
+To install my app, follow these steps:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+1. Clone the repository
+2. Run `npm install` to install the React dependencies
+3. Run `dotnet restore` to install the C# API dependencies
+4. Run `dotnet run` to start the API
+5. Run `npm start` to start the React application
 
-### `npm run build`
+## Running the Project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+To run the project, follow these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Install Dependencies
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+* Install Node.js from the official website: <https://nodejs.org/en/download/>
+* Install .NET Core from the official website: <https://dotnet.microsoft.com/download>
+* Install npm by running the following command in your terminal: `npm install`
+* Install the required packages for the React frontend by running the following command in your terminal: `npm install react react-dom`
+* Install the required packages for the C# API backend by running the following command in your terminal: `dotnet restore`
 
-### `npm run eject`
+### Start the API
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+* Navigate to the `api` directory in your terminal
+* Run the following command to start the API: `dotnet run`
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### Start the React Application
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+* Navigate to the `src` directory in your terminal
+* Run the following command to start the React application: `npm start`
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+### Access the Application
 
-## Learn More
+* Open a web browser and navigate to `http://localhost:3000` to access the React application
+* The API will be running on `http://localhost:5000`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Contributing
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Contributions are welcome! Please submit a pull request with your changes.
+
+## API Documentation
+
+The API is documented in the FileController.cs file.
+
+## Frontend Documentation
+
+The frontend is documented in the FileUpload.tsx, index.tsx, and App.tsx files.
+
+## Example Use Cases
+
+* Uploading a file and parsing its contents
+* Displaying the parsed data in the React application
+
+## Known Issues
+
+* None currently known
+
+## License
+
+My app is licensed under the MIT License.
