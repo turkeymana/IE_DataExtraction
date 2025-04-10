@@ -1,10 +1,6 @@
-# My App
-
-This is a brief description of my app.
-
 ## Overview
 
-My app is a file upload and parsing application that uses a React frontend and a C# API backend. The application allows users to upload files, which are then parsed and processed by the API.
+This app is a file upload and parsing application that uses a React frontend and a C# API backend. The application allows users to upload CAN bus files, which are then parsed and processed by the API to locate specifically the service 36 tag. This could easily be modified in the future to accept multiple codes. This code is being uploaded as a project for Integrated Engineering and will be taken down within a month.
 
 ## Features
 
@@ -49,12 +45,8 @@ To run the project, follow these steps:
 
 ### Access the Application
 
-* Open a web browser and navigate to `http://localhost:3000` to access the React application
-* The API will be running on `http://localhost:5000`
-
-## Contributing
-
-Contributions are welcome! Please submit a pull request with your changes.
+* Open a web browser and navigate to `http://localhost:3000` to access the React application. It should automatically open when you start up the React application
+* The API will be running on `http://localhost:3001`
 
 ## API Documentation
 
@@ -63,15 +55,6 @@ The API is documented in the FileController.cs file.
 ## Frontend Documentation
 
 The frontend is documented in the FileUpload.tsx, index.tsx, and App.tsx files.
-
-## Example Use Cases
-
-* Uploading a file and parsing its contents
-* Displaying the parsed data in the React application
-
-## Known Issues
-
-* None currently known
 
 ## License
 
