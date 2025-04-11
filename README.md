@@ -23,7 +23,9 @@ This app is a file upload and parsing application that uses a React frontend, Ty
 ### Start the API
 
 * Navigate to the `IE_DataExtraction-master\api\FileApi` directory in your terminal
-* You might need to run `dotnet restore` to install the C# API dependencies
+* One of the times I ran my app on a virtual machine it couldn't find dotnet even when doing `dotnet --version`
+* To fix this I simply went to the dotnet file directory around `C:\Program Files\dotnet` and ran `dotnet.exe`
+* Then Navigate back to the FileApi directory and retry.
 * Run the following command to start the API: `dotnet run`
 
 ### Start the React Application
