@@ -17,6 +17,8 @@ This app is a file upload and parsing application that uses a React frontend, Ty
 2. Unzip the files to the location you'd like
 3. open up the command prompt
 4. Navigate to the unzipped folders location
+5. Download Node JS from `https://nodejs.org/en/download/` and install
+6. Download Dotnet from `https://dotnet.microsoft.com/download` and install
 
 ### Start the API
 
