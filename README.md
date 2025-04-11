@@ -2,7 +2,7 @@
 
 This app is a file upload and parsing application that uses a React frontend, Typescript, and a C# API backend. The application allows users to upload CAN bus files, which are then parsed and processed by the API to locate specifically the service 36 tag. This could easily be modified in the future to accept multiple codes. This code is being uploaded as a project for Integrated Engineering and will be made private in the future.
 
-## Personal Notes
+## Notes
 
 If I had to redo this assignment there is a lot I would do differently. My main problem had to do with learning and understanding the CAN data properly while I was coding. figuring out some of the more niche formatting like removing any 55 codes at the end of each service response caused my solution to be built piece by piece on top of each other. Doing this introduced a few bugs and edge cases I had to manually solve like adding a 0000 to the front of my regex since one part of the data has an 07E8 located in the response Bytes causing my regex to think it was the end of the current code. I would seperate the data out into blocks in the future so that when looking for individual pieces I am ONLY looking in the potential correct location. I felt rather than redoing everything that the first solution I came to should be shown since it was fully functional for the test case. Having access to more CAN data would allow me to better check but if anything fails I imagine it would be in obscure edge cases. I would love to talk about how I would solve this differently if tasked with it again.
 
