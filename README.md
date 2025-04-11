@@ -37,6 +37,8 @@ This app is a file upload and parsing application that uses a React frontend, Ty
 
 * Open a web browser and navigate to `http://localhost:3000` to access the React application. It should automatically open a window when you start the React application
 * The API will be running on `http://localhost:3001`
+* Select the .candata file and click Upload and Parse. You can view it's progress in the API's command prompt or wait until it says completed
+* Select the Download button and it should return you a .bin file that has extracted the codes for the service 36
 
 ## File Documentation
 
